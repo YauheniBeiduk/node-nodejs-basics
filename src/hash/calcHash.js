@@ -8,7 +8,7 @@ const calculateHash = async () => {
 
     const hash = createHash('sha256');
     const hex = hash.update(content).digest('hex');
-    console.log(hex)
+    console.log(hex);
 };
 
 await calculateHash();
