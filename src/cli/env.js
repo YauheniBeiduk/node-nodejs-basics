@@ -7,7 +7,7 @@ const parseEnv = () => {
             }
             return acc;
         },[]);
-    process.stdout.write(envVariables.join('; '))
+    process.stdout.write(envVariables.join('; '));
 };
 
 parseEnv();
